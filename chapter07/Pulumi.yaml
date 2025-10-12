@@ -1,0 +1,10 @@
+name: chapter07
+description: chapter07
+runtime:
+  name: nodejs
+  options:
+    packagemanager: yarn
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
