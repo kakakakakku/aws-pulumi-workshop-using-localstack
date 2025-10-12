@@ -1,0 +1,12 @@
+name: chapter09
+description: chapter09
+runtime:
+  name: nodejs
+  options:
+    packagemanager: yarn
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
+backend:
+  url: s3://chapter09-pulumi-state?endpoint=s3.localhost.localstack.cloud:4566&disableSSL=true&s3ForcePathStyle=true
