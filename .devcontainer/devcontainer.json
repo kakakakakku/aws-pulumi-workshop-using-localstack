@@ -1,6 +1,6 @@
 {
     "name": "aws-pulumi-workshop-using-localstack-draft",
-    "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+    "image": "mcr.microsoft.com/devcontainers/python:3.13-bookworm",
     "runArgs": ["--env-file", ".devcontainer/devcontainer.env"],
     "features": {
         "ghcr.io/devcontainers/features/aws-cli:1": {},
@@ -14,7 +14,7 @@
             "version": "3.196.0"
         },
         "ghcr.io/localstack/devcontainer-feature/localstack-cli:0": {
-            "version": "4.7.0",
+            "version": "4.13.1",
             "awslocal": true,
             "pulumilocal": true
         }
